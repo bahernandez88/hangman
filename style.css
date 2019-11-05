@@ -1,0 +1,46 @@
+html{
+    background-color: black;
+}
+body{
+    background-color:gray;
+    text-align: center;
+    
+    
+}
+h1{
+    display:block;
+    margin:0px auto;
+    text-align: center;
+}
+canvas{
+    border:1px solid #000000;
+    display: block;
+    /* position: relative; */
+    margin: 2% auto;
+    /* padding: 5%; */
+    background-color:white;
+    image-rendering: crisp-edges;
+  
+}
+
+
+
+input{
+    display: inline;
+    margin: 0px auto;
+    height: 5%;
+    font-weight: bold;
+    width: 5%;
+}
+#answer p{
+    font-size: 4em;
+}
+.secret, #newGame{
+    width: 25%;
+}
+#answer{
+    font-size: 2em;
+}
+#secretInput{
+    text-align: center;
+}
