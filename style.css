@@ -22,10 +22,24 @@ canvas{
     image-rendering: crisp-edges;
   
 }
+.startButtons{
+    position: relative;
+    width:10%;
+}
+#startMenu{
+    padding-top: 5%;
+}
+a{
+  margin: 0px;
+  padding: 0px;  
+}
+#mainMenu{
+    position: absolute;
+    left:15px;
+}
 
 
-
-input{
+.button{
     display: inline;
     margin: 0px auto;
     height: 5%;
