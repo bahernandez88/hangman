@@ -29,7 +29,69 @@ window.addEventListener("load", function(){
     }
     blank = answer.innerHTML.split(" ");
     answerString = secretWord.split("");
-    
+
+})
+
+window.addEventListener("keydown", function(e){
+   
+    if(e.keyCode == 65){
+        this.document.getElementById("aButton").click();
+    }
+    if(e.keyCode == 66){
+        this.document.getElementById("bButton").click();
+    }
+    if(e.keyCode == 67){
+        this.document.getElementById("cButton").click();
+    }
+    if(e.keyCode == 68){
+        this.document.getElementById("dButton").click();
+    }if(e.keyCode == 69){
+        this.document.getElementById("eButton").click();
+    }if(e.keyCode == 70){
+        this.document.getElementById("fButton").click();
+    }if(e.keyCode == 71){
+        this.document.getElementById("gButton").click();
+    }if(e.keyCode == 72){
+        this.document.getElementById("hButton").click();
+    }if(e.keyCode == 73){
+        this.document.getElementById("iButton").click();
+    }if(e.keyCode == 74){
+        this.document.getElementById("jButton").click();
+    }if(e.keyCode == 75){
+        this.document.getElementById("kButton").click();
+    }if(e.keyCode == 76){
+        this.document.getElementById("lButton").click();
+    }if(e.keyCode == 77){
+        this.document.getElementById("mButton").click();
+    }if(e.keyCode == 78){
+        this.document.getElementById("nButton").click();
+    }if(e.keyCode == 79){
+        this.document.getElementById("oButton").click();
+    }if(e.keyCode == 80){
+        this.document.getElementById("pButton").click();
+    }if(e.keyCode == 81){
+        this.document.getElementById("qButton").click();
+    }if(e.keyCode == 82){
+        this.document.getElementById("rButton").click();
+    }if(e.keyCode == 83){
+        this.document.getElementById("sButton").click();
+    }if(e.keyCode == 84){
+        this.document.getElementById("tButton").click();
+    }if(e.keyCode == 85){
+        this.document.getElementById("uButton").click();
+    }if(e.keyCode == 86){
+        this.document.getElementById("vButton").click();
+    }if(e.keyCode == 87){
+        this.document.getElementById("wButton").click();
+    }if(e.keyCode == 88){
+        this.document.getElementById("xButton").click();
+    }if(e.keyCode == 89){
+        this.document.getElementById("yButton").click();
+    }if(e.keyCode == 90){
+        this.document.getElementById("zButton").click();
+    }if(e.keyCode == 32){
+        this.document.getElementById("newGame").click();
+    }
 })
 
 /**     Event Listeners       */
@@ -56,7 +118,6 @@ for (var i = 0; i < buttons.length; i++){
                     buttons[i].disabled = true;
                     
                 }
-
             }
             
         }
